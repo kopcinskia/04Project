@@ -1,0 +1,79 @@
+<plan-zajec typ="N" id="11702" idcel="-1716" nazwa="Ma³kus Tomasz, dr" od="2017-04-04" do="2017-04-18">
+<okres od="2017-04-04" do="2017-04-18" nazwa="2017-04-04 do 2017-04-18" wybrany="tak"/>
+<okres od="2016-09-30" do="2017-02-19" nazwa="2016-09-30 do 2017-02-19"/>
+<okres od="2017-02-20" do="2017-09-30" nazwa="2017-02-20 do 2017-09-30"/>
+<zajecia>
+<termin>2017-04-05</termin>
+<dzien>Œr</dzien>
+<od-godz>11:20</od-godz>
+<do-godz>13:00</do-godz>
+<przedmiot>
+Zarz¹dzanie projektami ekonomicznymi i organizacyjnymi
+</przedmiot>
+<typ>æwiczenia</typ>
+<sala>Paw.G 14</sala>
+<grupa>KrDZZa2011Zz</grupa>
+</zajecia>
+<zajecia>
+<termin>2017-04-05</termin>
+<dzien>Œr</dzien>
+<od-godz>13:05</od-godz>
+<do-godz>14:45</do-godz>
+<przedmiot>Zarz¹dzanie ryzykiem projektowym</przedmiot>
+<typ>wyk³ad</typ>
+<sala>Paw.B 251</sala>
+<grupa>KrDUZa2011Pj, KrDUZa2012Pj</grupa>
+</zajecia>
+<zajecia>
+<termin>2017-04-06</termin>
+<dzien>Cz</dzien>
+<od-godz>16:30</od-godz>
+<do-godz>18:05</do-godz>
+<przedmiot>Zarz¹dzanie firm¹ na rynku miêdzynarodowym</przedmiot>
+<typ>æwiczenia</typ>
+<sala>Bibl. 441</sala>
+<grupa>KrDZZa3012Zf</grupa>
+</zajecia>
+<zajecia>
+<termin>2017-04-06</termin>
+<dzien>Cz</dzien>
+<od-godz>18:10</od-godz>
+<do-godz>19:45</do-godz>
+<przedmiot>Zarz¹dzanie projektami w turystyce</przedmiot>
+<typ>æwiczenia</typ>
+<sala>Bibl. 443</sala>
+<grupa>KrDZTr3012Hg</grupa>
+</zajecia>
+<zajecia>
+<termin>2017-04-08</termin>
+<dzien>Sb</dzien>
+<od-godz>11:20</od-godz>
+<do-godz>13:50</do-godz>
+<przedmiot>Zarz¹dzanie strategiczne</przedmiot>
+<typ>æwiczenia</typ>
+<sala>Bud.g³. 3</sala>
+<grupa>KrZUZa2014</grupa>
+</zajecia>
+<zajecia>
+<termin>2017-04-08</termin>
+<dzien>Sb</dzien>
+<od-godz>14:00</od-godz>
+<do-godz>15:35</do-godz>
+<przedmiot>Zarz¹dzanie firm¹ na rynku miêdzynarodowym</przedmiot>
+<typ>æwiczenia</typ>
+<sala>Paw.C sala C</sala>
+<grupa>KrZZZa3011Zf</grupa>
+</zajecia>
+<zajecia>
+<termin>2017-04-12</termin>
+<dzien>Œr</dzien>
+<od-godz>11:20</od-godz>
+<do-godz>13:00</do-godz>
+<przedmiot>
+Zarz¹dzanie projektami ekonomicznymi i organizacyjnymi
+</przedmiot>
+<typ>æwiczenia</typ>
+<sala>Paw.G 14</sala>
+<grupa>KrDZZa2011Zz</grupa>
+</zajecia>
+</plan-zajec>

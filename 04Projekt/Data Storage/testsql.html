@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function getRandomInt() {
+            min = 1;
+            max = 9007199254740991;
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        const db = openDatabase('dbtest321456', '1.0', 'Test DB', 2 * 1024 * 1024)
+
+        function checkWebSQLPerformance(times) {
+            db.transaction(function(tx) {
+                tx.executeSql('CREATE TABLE IF NOT EXISTS TESTTABLE (column)')
+                t0 = performance.now()
+                for (let i = 0; i < times; i++) {
+                    tx.executeSql('INSERT INTO TESTTABLE (column) VALUES (' + getRandomInt() + ')')
+                }
+                t1 = performance.now()
+                console.log(times + ' times took ' + (t1 - t0) / 1000 + 's')
+            })
+        }
+        checkWebSQLPerformance(1000)
+        checkWebSQLPerformance(10000)
+        checkWebSQLPerformance(100000)
+
+    </script>
+</body>
+
+</html>

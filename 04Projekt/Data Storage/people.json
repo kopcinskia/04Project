@@ -1,0 +1,163 @@
+{
+    "people": [
+        {
+            "name": "Adrian",
+            "surname": "Kopcinski",
+            "age": "21",
+            "gender": "male",
+            "email": "kopcinskia@gmail.com",
+            "phone": {
+                "landline": "0126489100",
+                "mobile": [
+          "+48687654875",
+          "+48837054362"
+        ]
+            },
+            "adress": {
+                "street": "dębowa",
+                "home_number": "153",
+                "postal_code": "31-858",
+                "city": "Cracow"
+            },
+            "interests": [
+        "workout",
+        "cooding",
+        "healthy food"
+      ],
+            "family": {
+                "spouse": {
+                    "name": "Konstancja",
+                    "surname": "Wocial"
+                },
+                "children": [
+                    {
+                        "name": "Amelka",
+                        "surname": "Wocial",
+                        "gender": "female",
+                        "age": "5",
+                        "interests": [
+              "fairy",
+              "dolls"
+            ]
+          },
+                    {
+                        "name": "Alanek",
+                        "surname": "Wocial",
+                        "gender": "male",
+                        "age": "8",
+                        "interests": [
+              "cars",
+              "games"
+            ]
+          }
+        ]
+            }
+    },
+        {
+            "name": "Michał",
+            "surname": "Woźniczko",
+            "age": "19",
+            "gender": "male",
+            "email": "dropse@gmail.com",
+            "phone": {
+                "landline": "0126489100",
+                "mobile": [
+          "+48324687945",
+          "+48837054362"
+        ]
+            },
+            "adress": {
+                "street": "sosnowa",
+                "home_number": "13",
+                "postal_code": "31-858",
+                "city": "Cracow"
+            },
+            "interests": [
+        "cycling",
+        "cooding",
+        "buisnes"
+      ],
+            "family": {
+                "spouse": {
+                    "name": "Jesika",
+                    "surname": "Matoł"
+                },
+                "children": [
+                    {
+                        "name": "Michał",
+                        "surname": "Woźniczko",
+                        "gender": "male",
+                        "age": "5",
+                        "interests": [
+              "drugs",
+              "rock and roll"
+            ]
+          },
+                    {
+                        "name": "Alanek",
+                        "surname": "Woźniczko",
+                        "gender": "male",
+                        "age": "12",
+                        "interests": [
+              "cars",
+              "games"
+            ]
+          }
+        ]
+            }
+    },
+        {
+            "name": "Seba",
+            "surname": "Grabiński",
+            "age": "53",
+            "gender": "male",
+            "email": "s.grabki@gmail.com",
+            "phone": {
+                "landline": "0126489100",
+                "mobile": [
+          "+48846516549",
+          "+48837054362"
+        ]
+            },
+            "adress": {
+                "street": "miodowa",
+                "home_number": "3",
+                "postal_code": "31-858",
+                "city": "Cracow"
+            },
+            "interests": [
+        "ios",
+        "healthy",
+        "books"
+      ],
+            "family": {
+                "spouse": {
+                    "name": "Grażyna",
+                    "surname": "Grabińska"
+                },
+                "children": [
+                    {
+                        "name": "Stefka",
+                        "surname": "Grabińska",
+                        "gender": "female",
+                        "age": "3",
+                        "interests": [
+              "books",
+              "dolls"
+            ]
+          },
+                    {
+                        "name": "Zdzisek",
+                        "surname": "Grabiński",
+                        "gender": "male",
+                        "age": "6",
+                        "interests": [
+              "ios",
+              "cars"
+            ]
+          }
+        ]
+            }
+    }
+  ]
+}

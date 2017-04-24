@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            margin: 10px;
+            padding: 50px;
+            text-align: center;
+        }
+        
+        #Message {
+            font-size: 20px;
+        }
+        
+        .green {
+            color: green;
+        }
+        
+        .blue {
+            color: blue;
+        }
+        
+        #inputUsername,
+        #inputPassword {
+            display: block;
+            margin: 10px;
+            width: 150px;
+            height: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <label id="Message"></label>
+    <input id="inputUsername" type="text" placeholder="usename" />
+    <input id="inputPassword" type="text" placeholder="password" />
+    <button id="btnLogin">Login</button>
+</body>
+<script type="text/javascript">
+    const
+
+        inputUsername = document.querySelector('#inputUsername'),
+        inputPasswoed = document.querySelector('#inputPassword'),
+        btnLogin = document.querySelector('#btnLogin'),
+        Message = document.querySelector('#Message')
+
+    btnLogin.addEventListener('click', checkLogin)
+
+    localStorage.setItem('username', 'anie')
+    localStorage.setItem('password', 'ax123')
+
+    function checkLogin() {
+        let Username = localStorage.getItem('username'),
+            Password = localStorage.getItem('password')
+
+        if (inputUsername.value == Username && inputPasswoed.value == Password) {
+            Message.className = 'green'
+            Message.innerHTML = 'Congratulations' + '\n' + 'User logged in successfully' + '\n'
+        } else {
+            Message.className = 'blue'
+            Message.innerHTML = 'We create your new Account!' + '\n' + 'Please click Login again' + '\n'
+            localStorage.setItem('username', inputUsername.value)
+            localStorage.setItem('password', inputPasswoed.value)
+        }
+
+    }
+
+</script>
+
+</html>

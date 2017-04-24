@@ -1,0 +1,104 @@
+{
+  "plan-zajec": {
+    "-typ": "N",
+    "-id": "11702",
+    "-idcel": "-1716",
+    "-nazwa": "Ma³kus Tomasz, dr",
+    "-od": "2017-04-04",
+    "-do": "2017-04-18",
+    "okres": [
+      {
+        "-od": "2017-04-04",
+        "-do": "2017-04-18",
+        "-nazwa": "2017-04-04 do 2017-04-18",
+        "-wybrany": "tak"
+      },
+      {
+        "-od": "2016-09-30",
+        "-do": "2017-02-19",
+        "-nazwa": "2016-09-30 do 2017-02-19"
+      },
+      {
+        "-od": "2017-02-20",
+        "-do": "2017-09-30",
+        "-nazwa": "2017-02-20 do 2017-09-30"
+      }
+    ],
+    "zajecia": [
+      {
+        "termin": "2017-04-05",
+        "dzien": "Œr",
+        "od-godz": "11:20",
+        "do-godz": "13:00",
+        "przedmiot": "
+Zarz¹dzanie projektami ekonomicznymi i organizacyjnymi
+",
+        "typ": "æwiczenia",
+        "sala": "Paw.G 14",
+        "grupa": "KrDZZa2011Zz"
+      },
+      {
+        "termin": "2017-04-05",
+        "dzien": "Œr",
+        "od-godz": "13:05",
+        "do-godz": "14:45",
+        "przedmiot": "Zarz¹dzanie ryzykiem projektowym",
+        "typ": "wyk³ad",
+        "sala": "Paw.B 251",
+        "grupa": "KrDUZa2011Pj, KrDUZa2012Pj"
+      },
+      {
+        "termin": "2017-04-06",
+        "dzien": "Cz",
+        "od-godz": "16:30",
+        "do-godz": "18:05",
+        "przedmiot": "Zarz¹dzanie firm¹ na rynku miêdzynarodowym",
+        "typ": "æwiczenia",
+        "sala": "Bibl. 441",
+        "grupa": "KrDZZa3012Zf"
+      },
+      {
+        "termin": "2017-04-06",
+        "dzien": "Cz",
+        "od-godz": "18:10",
+        "do-godz": "19:45",
+        "przedmiot": "Zarz¹dzanie projektami w turystyce",
+        "typ": "æwiczenia",
+        "sala": "Bibl. 443",
+        "grupa": "KrDZTr3012Hg"
+      },
+      {
+        "termin": "2017-04-08",
+        "dzien": "Sb",
+        "od-godz": "11:20",
+        "do-godz": "13:50",
+        "przedmiot": "Zarz¹dzanie strategiczne",
+        "typ": "æwiczenia",
+        "sala": "Bud.g³. 3",
+        "grupa": "KrZUZa2014"
+      },
+      {
+        "termin": "2017-04-08",
+        "dzien": "Sb",
+        "od-godz": "14:00",
+        "do-godz": "15:35",
+        "przedmiot": "Zarz¹dzanie firm¹ na rynku miêdzynarodowym",
+        "typ": "æwiczenia",
+        "sala": "Paw.C sala C",
+        "grupa": "KrZZZa3011Zf"
+      },
+      {
+        "termin": "2017-04-12",
+        "dzien": "Œr",
+        "od-godz": "11:20",
+        "do-godz": "13:00",
+        "przedmiot": "
+Zarz¹dzanie projektami ekonomicznymi i organizacyjnymi
+",
+        "typ": "æwiczenia",
+        "sala": "Paw.G 14",
+        "grupa": "KrDZZa2011Zz"
+      }
+    ]
+  }
+}

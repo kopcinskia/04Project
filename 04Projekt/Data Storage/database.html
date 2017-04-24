@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="status" name="status">Status</div>
+
+    <script>
+        function getRandomInt() {
+            min = 1;
+            max = 9007199254740991;
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        const db = openDatabase('db123123', '1.0', 'Test DB', 2 * 1024 * 1024)
+        let msg
+        // write
+        db.transaction(function(tx) {
+            tx.executeSql(
+                'CREATE TABLE IF NOT EXISTS USERS (name, surname, age, username, email)'
+            )
+            tx.executeSql(
+                'INSERT INTO USERS (name, surname, age, username, email) VALUES ("Beverly", "Bell", 35, "bbell0", "bbell0storify.com")'
+            )
+            tx.executeSql(
+                'INSERT INTO USERS (name, surname, age, username, email) VALUES ("Jane", "Fields", 35, "jfields1", "jfields1@privacy.gov.au")'
+            )
+            tx.executeSql(
+                'INSERT INTO USERS (name, surname, age, username, email) VALUES ("Jane", "Simmons", 25, "jsimmons2", "jsimmons2@discovery.com")'
+            )
+            tx.executeSql(
+                'INSERT INTO USERS (name, surname, age, username, email) VALUES ("Russell", "Garrett", 35, "rgarrett3", "rgarrett3@php.net")'
+            )
+            tx.executeSql(
+                'INSERT INTO USERS (name, surname, age, username, email) VALUES ("Lori", "Dixon", 23, "ldixon4", "ldixon4@myspace.com")'
+            )
+            msg = '<p>Users created and rows inserted.</p>';
+            document.querySelector('#status').innerHTML = msg;
+        })
+        // read
+        db.transaction(function(tx) {
+            tx.executeSql(
+                'SELECT * FROM USERS', [],
+                function(tx, results) {
+                    let len = results.rows.length,
+                        i;
+                    msg = "<p>Found records: " + len + "</p>"
+                    document.querySelector('#status').innerHTML += msg;
+                    for (i = 0; i < len; i++) {
+                        msg =
+                            "<p>" +
+                            results.rows.item(i).name + " " +
+                            results.rows.item(i).surname + " " +
+                            results.rows.item(i).age + " " +
+                            results.rows.item(i).username + " " +
+                            results.rows.item(i).email + " " +
+                            "</p>";
+                        document.querySelector('#status').innerHTML += msg;
+                    }
+                }, null
+            )
+        })
+
+    </script>
+</body>
+
+</html>

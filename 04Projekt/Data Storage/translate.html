@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+</head>
+
+<body>
+
+    <h1>Save to local storage</h1>
+   <p>Open Console Check and remove data</p>
+
+
+    <div id="result"></div>
+
+    <script>
+        var string = '{"osoba":[{"imie":"adrian"},{"nazwisko":"kopciński"},{"wiek":"21"},{"rok studiow":"3"}]}';
+localStorage.setItem('added-items', JSON.stringify(string));
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+</head>
+
+<body>
+    <h1>Save Name</h1>
+    <input id="someText" type="text" placeholder="Save this text x 1000" />
+
+    <button id="save">Save</button>
+
+</body>
+<script type="text/javascript">
+    const inputSomeText = document.querySelector('#someText'),
+        btnSave = document.querySelector('#save')
+
+    btnSave.addEventListener('click', Save1000records)
+
+
+
+
+
+
+    function Save1000records() {
+        let time0 = performance.now()
+        for (let i = 0; i < 100000; i++) {
+            localStorage.setItem([i], inputSomeText.value)
+
+        }
+        let time1 = performance.now()
+        console.log('saving time: ' + (time1 - time0) / 1000 + 's')
+    }
+
+</script>
+
+</html>

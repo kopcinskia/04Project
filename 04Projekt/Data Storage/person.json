@@ -1,0 +1,55 @@
+{
+    "student": {
+        "name": "Adrian",
+        "surname": "Kopcinski",
+        "age": "21",
+        "gender": "male",
+        "email": "kopcinskia@gmail.com",
+        "phone": {
+            "landline": "0126489100",
+            "mobile": [
+        "+48519480788",
+        "+48837054362"
+      ]
+        },
+        "adress": {
+            "street": "dębowa",
+            "home_number": "153",
+            "postal_code": "31-858",
+            "city": "Cracow"
+        },
+        "interests": [
+      "workout",
+      "cooding",
+      "healthy food"
+    ],
+        "family": {
+            "spouse": {
+                "name": "Konstancja",
+                "surname": "Wocial"
+            },
+            "children": [
+                {
+                    "name": "Amelka",
+                    "surname": "Wocial",
+                    "gender": "female",
+                    "age": "8",
+                    "interests": [
+            "fairy",
+            "dolls"
+          ]
+        },
+                {
+                    "name": "Alanek",
+                    "surname": "Wocial",
+                    "gender": "male",
+                    "age": "5",
+                    "interests": [
+            "cars",
+            "games"
+          ]
+        }
+      ]
+        }
+    }
+}

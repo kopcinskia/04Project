@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employees>
+	<employee>
+		<id>1</id>
+		<firstName>Tom</firstName>
+		<lastName>Cruise</lastName>
+	</employee>
+	<employee>
+		<id>2</id>
+		<firstName>Maria</firstName>
+		<lastName>Sharapova</lastName>
+	</employee>
+	<employee>
+		<id>3</id>
+		<firstName>James</firstName>
+		<lastName>Bond</lastName>
+	</employee>
+</employees>
